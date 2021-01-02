@@ -18,5 +18,6 @@ export const Another = (props) => {
    
   return (<> <h1> {counter} </h1>
   <button onClick={addOne}>Click here</button>
+  {props.commando}
   </>)
 };

@@ -11,7 +11,7 @@ export const App = (props) => {
    
   return (<><h1> {hello} </h1>
   <Other/> 
-  <Another/>
+  <Another commando = {<h1>Terminator</h1>} />
   <Well cheese= {<h1>Gouda</h1>} />
   </>)
 };
