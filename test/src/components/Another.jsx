@@ -1,23 +1,23 @@
-import React from "react";
-import {Other} from "./Other.jsx"
+// import React from "react";
+// import {Other} from "./Other.jsx"
 
-export const Another = (props) => {
+// export const Another = (props) => {
 
 
-  const hello = "Hello Worldssss"
+//   const hello = "Hello Worldssss"
 
-  const [counter, setCounter] = React.useState(7)
+//   const [counter, setCounter] = React.useState(7)
 
-  const addOne = () => {
-    setCounter(counter + 8)
-    console.log(counter)
+//   const addOne = () => {
+//     setCounter(counter + 8)
+//     console.log(counter)
 
  
-  }
+//   }
 
    
-  return (<> <h1> {counter} </h1>
-  <button onClick={addOne}>Click here</button>
-  {props.commando}
-  </>)
-};
+//   return (<> <h1> {counter} </h1>
+//   <button onClick={addOne}>Click here</button>
+//   {props.commando}
+//   </>)
+// };

@@ -2,18 +2,17 @@ import React from "react";
 
 export const Other = (props) => {
 
-   const [letter, setLetter] = React.useState(1)
+   const [num, setNum] = React.useState(1)
 
 
   const addOne = () => {
-    setLetter (letter * -2)
-    console.log(letter)
+    setNum (num + 2)
     
   }
 
   return (<> 
   
-  <h1> {letter} </h1>
+  <h1> {num} </h1>
   <button onClick={addOne}>click me</button>
   
    </>)
